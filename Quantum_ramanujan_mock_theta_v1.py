@@ -16,9 +16,9 @@ from qiskit.quantum_info import Statevector
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -344,19 +344,19 @@ Posebnost: Lazne teta funkcije, modularna senka i kvantna interferencija amplitu
 CSV: loto7_4718_k90.csv (kola: 4718)
 Validacija -> NLL: 3.6670 | Prosek pogodaka: 1.232
 Test       -> NLL: 3.6663 | Prosek pogodaka: 1.280
-NEXT       -> [2, 10, 12, 16, 31, 32, 33]
+NEXT       -> [2, x, 12, y, 31, z, 33]
 ----------------------------------------------------
 
 CSV: loto7_4718_k90_loto_2981.csv (kola: 2981)
 Validacija -> NLL: 3.6684 | Prosek pogodaka: 1.275
 Test       -> NLL: 3.6669 | Prosek pogodaka: 1.271
-NEXT       -> [2, 6, 7, 9, 10, 23, 31]
+NEXT       -> [2, x, 7, y, 10, z, 31]
 ----------------------------------------------------
 
 CSV: loto7_4718_k90_loto_plus_1737.csv (kola: 1737)
 Validacija -> NLL: 3.6714 | Prosek pogodaka: 1.177
 Test       -> NLL: 3.6676 | Prosek pogodaka: 1.295
-NEXT       -> [2, 3, 4, 5, 6, 7, 12]
+NEXT       -> [2, x, 4, y, 6, z, 12]
 ----------------------------------------------------
 """
 
